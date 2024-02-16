@@ -318,11 +318,11 @@ a:hover {
 
 /* ангимация на слайды */
 /*#region*/ 
-.item-anim{
+/* .item-anim{
   animation-duration: 1.2s;
   animation-timing-function: ease-out;
   animation-name: slidein;
-}
+} */
 
 @keyframes slidein {
   from {
@@ -339,11 +339,11 @@ a:hover {
 }
 
 
-.content-anim {
+/* .content-anim {
   animation-duration: 1.2s;
   animation-timing-function: ease-out;
   animation-name: content-anim;
-}
+} */
 
 @keyframes content-anim {
   from {
