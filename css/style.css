@@ -368,7 +368,7 @@ a:hover {
   }
 
   .carousel {
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
   }
 
   .slide {
@@ -383,7 +383,12 @@ a:hover {
     right: calc(50% + 125px);  
   } 
 
-
+  .slide:hover {
+    transform: scale(1.05);
+    transition: .4s ease;
+    cursor: pointer;
+    filter: none;
+  }
   /* .nav-btn {
     position: absolute;
     right: -1px;
