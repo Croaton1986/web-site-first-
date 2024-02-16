@@ -61,8 +61,7 @@ window.onclick = function(e){
 window.addEventListener('resize', function(event) {
     if(event.target.screen.width <=600){
         // carousel.style.transition = '1s ease';
-        // carousel.style.transform = `translateX(${-50*position}%)`;
-        location.reload();
+        carousel.style.transform = `translateX(0)`;
 
     }
     // console.log(event.target.screen.width)
