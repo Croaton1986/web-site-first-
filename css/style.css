@@ -258,7 +258,7 @@ a:hover {
 }
 
 .carousel {
-    /* transform: translateX(-150%); */
+    transform: translateX(0);
     /* margin-left: -00%; */
 }
 
