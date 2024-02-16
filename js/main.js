@@ -57,15 +57,18 @@ window.onclick = function(e){
         moveCaruselR()
     }
 }
+if(window.screen.width <= 600){
+    carousel.style.transform = `translateX(0)`;
+}
+// window.addEventListener('resize', function(event) {
+//     if(event.target.screen.width <=600){
+//         // carousel.style.transition = '1s ease';
+//         carousel.style.transform = `translateX(0)`;
+//         // location.reload();
 
-window.addEventListener('resize', function(event) {
-    if(event.target.screen.width <=600){
-        // carousel.style.transition = '1s ease';
-        carousel.style.transform = `translateX(0)`;
-
-    }
-    // console.log(event.target.screen.width)
-}, true);
+//     }
+//     // console.log(event.target.screen.width)
+// }, true);
 
 /**
  * Изменение положения карусели влево
