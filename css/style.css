@@ -186,7 +186,7 @@ a:hover {
 .item .content {
     color: azure;
     position: absolute;
-    bottom: calc(var(--index)*14);
+    bottom: 30%;
     left: 40%;
     width: 1400px;
     max-width: 80%;
