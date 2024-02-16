@@ -151,11 +151,10 @@ body {
 
 .nav-list-item:not(:last-child) {
     margin-right: 20px;
-    color: rgb(195, 101, 34);
 }
 
 a:link, a:visited {
-    color: rgb(195, 101, 34);
+    color: rgb(255, 255, 255);
 }
 
 a:hover {
